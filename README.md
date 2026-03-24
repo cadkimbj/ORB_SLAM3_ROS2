@@ -20,7 +20,7 @@ $ sudo apt install ros-$ROS_DISTRO-vision-opencv && sudo apt install ros-$ROS_DI
 - Update ROS2 packages
 ```
 $ sudo apt update
-$ sudo apt update
+$ sudo apt ugrade
 ```
 
 ## How to build
