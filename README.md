@@ -1,10 +1,10 @@
 # ORB_SLAM3_ROS2
-This repository is a modified ROS2 wrapping([ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2)).
+This repository is a modified from([ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2)).
 
 ---
 
 ## Prerequisites
--Environment
+- Environment
   - Ubuntu 22.04
   - ROS2 Humble
   - OpenCV 4.5.4
