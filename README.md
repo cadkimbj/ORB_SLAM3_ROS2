@@ -1,5 +1,5 @@
 # ORB_SLAM3_ROS2
-This repository is ROS2 wrapping to use ORB_SLAM3
+This repository is a modified ROS2 wrapping([ORB_SLAM3_ROS2](https://github.com/zang09/ORB_SLAM3_ROS2)).
 
 ---
 
