@@ -33,7 +33,7 @@ $ git clone https://github.com/cadkimbj/ORB_SLAM3_ROS2.git orbslam3_ros2
 
 2. Change this [line](https://github.com/cadkimbj/ORB_SLAM3_ROS2/blob/d5e6d4977aced7961f50073b7af665e7ac5ec5e2/CMakeLists.txt#L5) to your own `python site-packages` path
 
-3. Change this [line]() to your own `ORB_SLAM3` path
+3. Change this [line](https://github.com/cadkimbj/ORB_SLAM3_ROS2/blob/d55e7a65c6c6fd5ebc7429fd1b99dbe8850da8f2/CMakeModules/FindORB_SLAM3.cmake#L8) to your own `ORB_SLAM3` path
 
 4. build!
 ```
