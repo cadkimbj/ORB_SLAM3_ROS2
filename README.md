@@ -71,7 +71,7 @@ $ ros2 run orbslam3 stereo PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE BOOL_RECT
 ```
   - `RGBD` mode  
 ```
-$ ros2 run orbslam3 rgbd PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
+$ ros2 run orbslam3 rgbd PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE --ros-args -r /camera/rgb:=scene_camera/image -r /camera/depth:=/depth_camera/image
 ```
   - `STEREO-INERTIAL` mode  
 ```
