@@ -63,7 +63,7 @@ This repository only support `MONO, STEREO, RGBD, STEREO-INERTIAL` mode now.
 You can find vocabulary file and config file in here. (e.g. `orbslam3_ros2/vocabulary/ORBvoc.txt`, `orbslam3_ros2/config/monocular/TUM1.yaml` for monocular SLAM).
   - `MONO` mode  
 ```
-$ ros2 run orbslam3 mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
+$ ros2 run orbslam3 mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE --ros-args -r camera:=/scene_camera/image
 ```
   - `STEREO` mode  
 ```
